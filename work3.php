@@ -58,7 +58,7 @@ echo max_array(array(12,4,6,8,10,2,));
 
 // strip_tagsでHTMLタグを取り除く。
 
-$str = '<p>Hello,<p><!--sample--> <a href="#">PHP<a/>';
+$str = '<p>Hello,<p><!--sample--> <a href="#">PHP</a>';
 echo strip_tags($str);
 echo "\n";
 
@@ -110,6 +110,7 @@ print_r('<br/>');
 date_default_timezone_set('Asia/Tokyo');
 
 echo date("Y/m/d H:i:s") ."\n";
+
 
 
 
